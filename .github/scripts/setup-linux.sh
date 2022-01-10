@@ -19,12 +19,12 @@ DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 mkdir build && cd build
 
 # Ref: https://freetype.org/download.html
-curl -L -O https://download.savannah.gnu.org/releases/freetype/freetype-${FREETYPE_VERSION}.tar.gz \
+curl -L -O https://download.savannah.gnu.org/releases/freetype/freetype-${FREETYPE_VERSION}.tar.gz 
 tar xvfz freetype-${FREETYPE_VERSION}.tar.gz
 
 # Ref: https://sourceforge.net/projects/quazip/files/quazip/
 #      http://quazip.sourceforge.net/
-curl -L -O https://sourceforge.net/projects/quazip/files/quazip/${QUAZIP_VERSION}/quazip-${QUAZIP_VERSION}.tar.gz/download \
+curl -L -O https://sourceforge.net/projects/quazip/files/quazip/${QUAZIP_VERSION}/quazip-${QUAZIP_VERSION}.tar.gz/download
 tar xvfz quazip-${QUAZIP_VERSION}.tar.gz
 
 # Ref: https://www.xpdfreader.com/download.html
