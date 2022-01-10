@@ -25,10 +25,12 @@ tar xvfz freetype-${FREETYPE_VERSION}.tar.gz
 # Ref: https://sourceforge.net/projects/quazip/files/quazip/
 #      http://quazip.sourceforge.net/
 curl -L -O https://sourceforge.net/projects/quazip/files/quazip/${QUAZIP_VERSION}/quazip-${QUAZIP_VERSION}.tar.gz/download
+ls -al
 tar xvfz quazip-${QUAZIP_VERSION}.tar.gz
 
 # Ref: https://www.xpdfreader.com/download.html
 curl -L -O https://dl.xpdfreader.com/XpdfReader-linux64-4.03.run
+ls -al
 sh ./XpdfReader-linux64-${XPDF_VERSION}.run
 
 # Ref: https://wiki.qt.io/Building_Qt_5_from_Git#Getting_the_source_code
