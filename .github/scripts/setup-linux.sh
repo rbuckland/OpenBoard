@@ -29,6 +29,8 @@ tar xvfz quazip-${QUAZIP_VERSION}.tar.gz
 
 # Ref: https://www.xpdfreader.com/download.html
 curl -L -O https://dl.xpdfreader.com/XpdfReader-linux64-4.03.run
+export PATH=.:${PATH}
+ln -s /bin/cat more
 echo yes | sh ./XpdfReader-linux64-${XPDF_VERSION}.run
 
 # Ref: https://wiki.qt.io/Building_Qt_5_from_Git#Getting_the_source_code
