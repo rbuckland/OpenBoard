@@ -6,8 +6,5 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v2
-      - name: current 
-        run: ls -al && pwd
       - name: setup linux
-        run: du -a .github
-        # run: sh .github/build/setup-linux.sh
+        run: sh .github/scripts/setup-linux.sh
