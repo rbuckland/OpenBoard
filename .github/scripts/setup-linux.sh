@@ -16,7 +16,7 @@ DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 # Download 3rd party Libraries
 #
 
-mkdir /build && cd /build
+mkdir build && cd build
 
 # Ref: https://freetype.org/download.html
 curl -L -O https://download.savannah.gnu.org/releases/freetype/freetype-${FREETYPE_VERSION}.tar.gz \
