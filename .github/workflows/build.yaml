@@ -1,0 +1,8 @@
+name: learn-github-actions
+on: [push]
+jobs:
+  install-linux-3rdparty:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: ./github/build/setup-linux.sh
