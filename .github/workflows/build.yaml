@@ -4,5 +4,7 @@ jobs:
   install-linux-3rdparty:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - run: .github/build/setup-linux.sh
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+      - name: setup linux
+        run: .github/build/setup-linux.sh
