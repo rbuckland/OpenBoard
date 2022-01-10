@@ -24,8 +24,7 @@ tar xvfz freetype-${FREETYPE_VERSION}.tar.gz
 
 # Ref: https://sourceforge.net/projects/quazip/files/quazip/
 #      http://quazip.sourceforge.net/
-curl -L -O https://sourceforge.net/projects/quazip/files/quazip/${QUAZIP_VERSION}/quazip-${QUAZIP_VERSION}.tar.gz/download
-ls -al
+curl -L -o quazip-${QUAZIP_VERSION}.tar.gz https://sourceforge.net/projects/quazip/files/quazip/${QUAZIP_VERSION}/quazip-${QUAZIP_VERSION}.tar.gz/download
 tar xvfz quazip-${QUAZIP_VERSION}.tar.gz
 
 # Ref: https://www.xpdfreader.com/download.html
